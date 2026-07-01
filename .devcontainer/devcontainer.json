@@ -1,0 +1,15 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "npm install",
+
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+
+  // Add the GitHub Copilot extension for VS Code (for older installations).
+  "customizations": {
+    "vscode": {
+      "extensions": ["GitHub.copilot"]
+    }
+  }
+}
